@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Marcellus&family=Roboto:wght@300&display=swap");
+* {
+  margin: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  background: url(../img/fondo4.jpg) no-repeat;
+  margin: 0;
+  padding: 0;
+}
+body h1, body h2, body h3, body h4, body h5 {
+  font-family: "Marcellus", serif;
+}
+
+.inicio1 {
+  width: 250px;
+  margin: 0 auto;
+  background: rgba(51, 121, 183, 0.337254902);
+  padding: 60px;
+  color: #FFFEFC;
+  margin-top: 15%;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 30%;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+.inicio1 img {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 120px;
+}
+.inicio1 a {
+  text-decoration: none;
+  color: #000;
+  margin-top: 30px;
+}
+.inicio1 .sub {
+  color: #FFFEFC;
+  background-color: #000;
+  margin-top: 30px;
+}
+.inicio1 i {
+  color: #FFFEFC;
+  background-color: #9C2759;
+  padding: 20px;
+  border-radius: 50%;
+  font-size: 20px;
+  position: relative;
+  overflow: hidden;
+}
+.inicio1 input, .inicio1 label {
+  display: block;
+  margin: auto;
+  height: 20px;
+  width: 90%;
+}
+.inicio1 label {
+  margin-top: 10px;
+}
+.inicio1 .caja {
+  width: 400px;
+}/*# sourceMappingURL=inicio.css.map */

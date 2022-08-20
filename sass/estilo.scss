@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&family=Roboto:wght@300&display=swap');
+$colornegro:#333333;
+$colormasnegro:#000;
+$colorgris:#B2B3B3;
+$colorazulclaro:#48D6ED;
+$colorazuloscuro:#337AB7;
+$colorazulmasoscuro:#25368a;
+$colorblanco:#FFFEFC;
+$colorverdeazul:#157A8A;
+$colorrojo:#9C2759;
+$degradago:linear-gradient(49.54deg, #337AB7 2.89%, #0B3860 80.34%);
+
+*{
+    margin:0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    h1,h2,h3,h4,h5{font-family: 'Marcellus', serif;
+    }
+}
+//menu
+nav{
+    background: $colormasnegro;
+    height: 80px;
+    width: 100%;
+    font-family: 'Marcellus', serif;
+    label.logo{
+        color: $colormasnegro;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 35px;
+        line-height: 80px;
+        margin-top: 10px;
+        position: absolute;
+        height: 2rem;
+    }
+      .logo img{
+    height: 2rem;
+    justify-content: flex-start;
+    padding-left: 40px;
+}
+  }
+  nav ul{
+    float: right;
+    margin-right: 20px;
+  }
+  nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+  }
+  nav ul li a{
+    color: $colorblanco;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-decoration: none;
+  }
+  a.active,a:hover{
+    background: $colorazulmasoscuro;
+    transition: .5s;
+  }
+  //animacion
+  .checkbtn{
+    font-size: 30px;
+    color: $colorblanco;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+  }
+  #check{
+    display: none;
+  }
+  @media (max-width: 858px){
+    .checkbtn{
+    display: block;
+    }
+    ul{
+    position: fixed;
+    width: 100%;
+    height: 57vh;
+    background: #25368ad0;
+    top: 80px;
+    top: -200%;
+    text-align: center;
+    transition: all 1s;  
+    }
+    nav ul li{
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+    }
+    nav ul li a{
+    font-size: 20px;
+    }
+    a:hover,a.active{
+    background: none;
+    color: $colorblanco;
+    text-decoration: none;
+    border-top: 2px solid rgb(255, 252, 252);
+    }
+    #check:checked ~ ul{
+    top: 80px;
+    }
+  }
+//presentacion
+.cajita1 {
+    background-image: url(../img/fondo1.jpg);
+    width: 100%;
+    height: 550px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+
+    h2{
+
+        color: $colorblanco;
+        padding: 1em;
+        background-color: rgba(0, 0, 0, 0);
+        background-image:linear-gradient(69.54deg, rgba(0, 0, 0, 0.455) 2.89%, hwb(0 100% 0% / 0) 84.34%); 
+    }  
+}
+//contenido
+.contenido{
+    background: $colorblanco;
+    padding: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .texto{
+    justify-content: flex-start;
+    color:$colormasnegro;
+    font-family: 'Marcellus', serif;
+    font-size: 20px
+    }
+    img{
+        height: 200px;
+        padding: 20px;
+    }
+}
+.cajita2{
+    background: url(../img/fondo2.png);
+    color: white;
+    padding: 1rem;
+    h2{
+        background-color: rgba(0, 0, 0, 0.35);
+        text-align: center;
+        padding: 0.5rem;
+        font-size: 1.5rem;
+    }
+    .minicajas{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .minicaja{
+        width: 25%;
+        min-width: 180px;
+        max-width: 230px;
+        margin: 0.8rem;
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+
+        i{
+            font-size: 2.2em;
+            margin-bottom: 1.5rem;
+        }
+
+    }        .az-ul{
+            background-color: rgba(20, 39, 150, 0.541);
+        }
+        .ne-gro{
+            background-color: rgba(0, 0, 0, 0.418);
+        }
+}
+.mapa{
+    h1{
+        text-align: center;
+        padding: 0.5rem;
+        font-size: 2.5rem;
+    }
+    h2{
+        text-align: center;
+        padding: 0.5rem;
+        font-size: 1.5rem;
+    }
+    .linea{
+         border-top: 1px solid black;
+         height: 2px;
+         padding: 0;
+         margin: 10px 330px 0 330px;
+    }
+}
+
+//fotter
+.content1{
+    position: relative;
+    margin: 14% auto;
+    text-align: center;
+    padding: auto;
+    color: white;
+    
+  }
+  .content1 .text{
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #ffffff;
+  }
+  .content1 .p{
+    font-size: 2.1875rem;
+    font-weight: 600;
+    color: #ffffff;
+  }
+  footer{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    background: #111;
+    color:$colorblanco;
+  }
+  .main-content{
+    display: flex;
+  }
+  .main-content .box{
+    flex-basis: 50%;
+    padding: 10px 20px;
+  }
+  .box h2{
+    font-size: 1.125rem;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  .box .content{
+    margin: 20px 0 0 0;
+    position: relative;
+  }
+ 
+  .left .content p{
+    text-align: justify;
+  }
+  .left .content .social{
+    margin: 20px 0 0 0;
+  }
+  .left .content .social a{
+    padding: 0 2px;
+  }
+  .left .content .social a span{
+    height: 40px;
+    width: 40px;
+    background: #ffffff;
+    line-height: 40px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: 0.3s;
+  }
+  
+  .center .content .text{
+    font-size: 1.0625rem;
+    font-weight: 500;
+    padding-left: 10px;
+  }
+
+  @media screen and (max-width: 900px) {
+    footer{
+      position: relative;
+      bottom: 0px;
+    }
+    .main-content{
+      flex-wrap: wrap;
+      flex-direction: column;
+    }
+    .main-content .box{
+      margin: 5px 0;
+    }
+  }

@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Marcellus&family=Roboto:wght@300&display=swap");
+* {
+  margin: 0;
+}
+
+.Registrocajas {
+  background-image: url("../img/fondo3.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
+.Registrocajas h3 {
+  color: #FFFEFC;
+  font-size: 29px;
+  font-weight: lighter;
+  margin-top: 20px;
+  text-align: center;
+  width: 200px;
+}
+.Registrocajas .cajaezqui {
+  background: rgba(11, 56, 96, 0.74);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Marcellus", serif;
+  justify-content: center;
+}
+.Registrocajas .formRegister {
+  background: rgba(248, 245, 245, 0.808);
+  width: 90%;
+  margin: 5% 8% 5% 5%;
+  font-size: 17px;
+}
+.Registrocajas .inputRegister {
+  width: 500px;
+  margin: 0px auto;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.Registrocajas .contenido {
+  padding: 10px;
+}
+.Registrocajas .checkTC {
+  display: block;
+  width: 300px;
+  margin: 10px auto;
+}
+.Registrocajas .btn-submit {
+  background: #333333;
+  color: #FFFEFC;
+  font-size: 18px;
+  padding: 5px 15px;
+  font-family: "Marcellus", serif;
+  font-weight: lighter;
+  display: block;
+  width: 300px;
+  margin: 0px auto;
+}
+.Registrocajas h1 {
+  font-size: 49px;
+  margin-top: 10px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}/*# sourceMappingURL=registro.css.map */

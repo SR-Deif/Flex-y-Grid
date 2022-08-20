@@ -1,0 +1,11 @@
+.grid-caja1 {
+  background-color: rgb(3, 109, 207);
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 20px;
+}
+.grid-caja1 .grid-item {
+  background-color: rgba(255, 255, 255, 0.527);
+  border: solid 1px;
+  text-align: center;
+}/*# sourceMappingURL=prueba.css.map */
