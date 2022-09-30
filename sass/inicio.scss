@@ -23,64 +23,103 @@ body{
     h1,h2,h3,h4,h5{font-family: 'Marcellus', serif;
     }
 }
-.inicio1{
-    width:250px;
-    margin:0 auto;
-    background: #3379b756;
-    padding: 60px;
-    color: $colorblanco;
-    margin-top: 15%;
-    flex-direction: column;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    width: 30%;
+.Inicio{
+    background-position: center;
+    background-size: 100%;
     display: flex;
-    position: relative;
-    overflow:hidden;
-    
-    img{
-        position:absolute;
-        top:10px;
-        left:10px;
-        width:120px;
-        
-    }
-    
-    a{
-        text-decoration: none;
-        color: $colormasnegro;
-        margin-top: 30px;
-    }
-    .sub{
-        color: $colorblanco;
-        background-color: $colormasnegro;
-        margin-top: 30px;
-        
-    }
-    i{
-        color: $colorblanco;
-        background-color: $colorrojo;
-        padding: 20px;
-        border-radius: 50%;
-        font-size: 20px;    
-        position: relative;
-        overflow:hidden;
-        
-    }
-    input,label{
-        display: block;
-        margin: auto;
-        height: 20px;
-        width: 90%;
-    }
-    label{
-        margin-top: 10px;
-    }
-    .caja{
-        width: 400px;
-
-    }
-
-    
-}
+    color: $colorblanco;
+    justify-content: center;
+   
+  }
+  
+.sect{
+    background-color: rgba(74, 125, 169, 0.836);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    margin-top:10% ;
+    border-radius: 3px;
+  }
+  
+  
+  .formulario{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    border: 0px;
+    margin-top: 1.5rem;
+    width: 100%;
+    height: auto;
+   
+  }
+  
+  .img-formulario{
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+    align-items: flex-start;
+    margin: -13.7%;
+  }
+  .img{
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+    align-items: flex-start;
+    margin: -13.7%;
+  }
+  
+  #img-formulario{
+    width: 100%;
+    height: 50%;  
+    margin: 10px;
+    margin-right: 55%;
+  }
+  
+  .user{
+    display: flex;
+    color: rgba(156, 39, 89);
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    padding: 1rem;
+    font-size: 50px;
+  }
+  
+  .inpt{
+    width: 100%;
+    height: 20px;
+  }
+  
+  .boton-formu{
+    width: 102.5%;
+    height: 25px;
+    background-color: $colormasnegro;
+    color: $colorblanco;
+    border-radius: 3px;
+    font-size: 1em;
+  }
+  
+  .registrar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-content: space-between;
+    margin: 0.5rem;
+  }
+  
+  .registrate{
+    display: flex;
+    align-content: center;
+    padding: 0.5rem;
+    color: $colorblanco;
+    font-size: 1em;
+  }
+  
+  .aqui{
+    display: flex;
+    color: $colormasnegro;
+  }

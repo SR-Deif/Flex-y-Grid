@@ -1,0 +1,236 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Marcellus&family=Roboto:wght@300&display=swap");
+* {
+  margin: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+body h1,
+body h2,
+body h3,
+body h4,
+body h5 {
+  font-family: "Marcellus", serif;
+}
+
+.das {
+  background-image: url("../img/fondo5.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+.caja {
+  display: grid;
+  grid-template-columns: 14% auto;
+}
+
+.caja-1 {
+  display: grid;
+  background-color: #333333;
+  grid-template-rows: 20% auto auto;
+}
+
+.image {
+  display: grid;
+  width: 100%;
+  height: auto;
+  background-color: rgb(9, 45, 75);
+  align-items: center;
+  justify-items: center;
+}
+
+.image img {
+  width: 70%;
+}
+
+.nombre-correo {
+  display: grid;
+  width: 100%;
+  font-size: 0.7em;
+  color: #FFFEFC;
+  justify-items: flex-start;
+  padding-left: 70%;
+}
+
+.correo-dashboard {
+  font-size: 1em;
+}
+
+.cerrarsesion {
+  display: flex;
+  color: #FFFEFC;
+  flex-direction: row;
+  background-color: #333333;
+}
+
+.sesion-dash {
+  display: flex;
+  flex-direction: row;
+  font-size: 1em;
+  margin: 1rem;
+  padding-left: 1rem;
+  align-self: flex-end;
+  text-decoration: none;
+  color: #FFFEFC;
+  background-color: #333333;
+  text-decoration: none;
+}
+
+.icon-dashboard {
+  display: flex;
+  flex-direction: row;
+  font-size: 0.5em;
+  margin: 1rem;
+  align-self: flex-start;
+}
+
+.text-dashboard {
+  display: flex;
+  font-size: 1em;
+  margin-left: 1rem;
+  align-self: flex-end;
+  text-decoration: none;
+  color: #FFFEFC;
+}
+
+.text-dashboard1 {
+  display: flex;
+  font-size: 1.5em;
+  margin-left: 1rem;
+  align-self: flex-end;
+  text-decoration: none;
+  color: #FFFEFC;
+}
+
+.habitaciones-dashboard {
+  display: flex;
+  font-size: 2.5em;
+  color: #FFFEFC;
+  flex-direction: column;
+}
+
+.icon-blue {
+  display: grid;
+  background-color: #157A8A;
+  width: 100%;
+  align-items: center;
+  justify-items: center;
+}
+
+.caja-2 {
+  background-color: rgba(229, 229, 229, 0.74);
+  margin: 1rem;
+  border-radius: 3px;
+  display: grid;
+}
+
+.info-usuario {
+  display: grid;
+  margin: 1rem;
+  border-radius: 15px;
+}
+
+.datos-dash {
+  display: grid;
+  grid-template-columns: 20% auto;
+}
+
+.title-dash {
+  justify-self: center;
+  padding-top: 1rem;
+  font-size: 2.5em;
+}
+
+.col1-dash {
+  display: grid;
+  width: 100%;
+  grid-template-rows: 42% 20% 20%;
+  grid-row: 0px;
+}
+
+.col1-dash img {
+  width: 70%;
+  justify-self: center;
+}
+
+.two-icons {
+  display: flex;
+  background-color: rgb(51, 122, 183);
+  width: 70%;
+  height: 70%;
+  flex-direction: row;
+  justify-self: center;
+  color: #FFFEFC;
+}
+
+.icon1-2,
+.icon2-2 {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  grid-template-columns: auto;
+  font-size: 2.5em;
+  width: 100%;
+}
+
+.cambiar-password-dash {
+  display: grid;
+  background-color: #333333;
+  width: 70%;
+  height: 100%;
+  border-radius: 5px;
+  flex-direction: row;
+  align-items: center;
+  justify-self: center;
+  color: #FFFEFC;
+  text-align: center;
+}
+
+.items-dashboard {
+  display: none;
+}
+
+.items-dashboard1 {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.campoin-dash {
+  width: 100%;
+  border-radius: 5px;
+  margin-top: 16%;
+}
+
+.botones-dash {
+  background-color: rgb(34, 34, 34);
+  color: #FFFEFC;
+  font-size: 1.5em;
+  width: 60%;
+  height: auto;
+  border-radius: 5px;
+  border: 0;
+  margin-top: 1rem;
+}
+
+.cajasc {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.formu {
+  padding: 14px;
+  text-align: center;
+}
+
+.dash {
+  display: grid;
+  transform: translate(10, -50%);
+}
+
+.campos {
+  padding: 5%;
+}/*# sourceMappingURL=das.css.map */

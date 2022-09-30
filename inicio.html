@@ -9,20 +9,31 @@
     <title></title>
 </head>
 <body>
-    <div class="inicio1">
-        <div class="caja">
-        <img src="img/Hotelia horizontal negro.svg" >
-
-        <i class="fa-solid fa-user"></i>
-        <form action="">
-            <label for="">Usuario</label>
-            <input type="text">
-            <label for="">Contraseña</label>
-            <input type="text">
-            <a class="sub" href="#" >Ingresar</a>
-        </div>
-            <p>¿No tienes una cuenta?<a href="registro.html">Registrate aqui</a></p>
-        </form>
+    <div class="Inicio">
+        <section class="sect">
+        
+            <div class="img">
+                <img src="/img/Hotelia horizontal negro.svg" id="img-formulario">
+            </div>
+            <div class="user">
+                <i class="fa-solid fa-circle-user"></i>
+            </div>
+            <fieldset class="formulario">
+                <form action="das.html" method="get">
+                <label for="usuario">Usuario</label>
+                <input type="text" name="usuario" class="inpt"><br><br>
+    
+                <label for="contrasena">Constraseña</label>
+                <input type="password" name="contrasena" id="contrasena" class="inpt"><br><br>
+    
+                <button type="submit" class="boton-formu">Ingresar</button>
+            </form>
+            </fieldset>
+            <div class="registrar">
+                <p class="registrate">¿No tienes una cuenta?</p>
+                <a href="registro.html" class="aqui">Registrate aquí</a>
+            </div>
+        </section>
     </div>
 </body>
 </html>

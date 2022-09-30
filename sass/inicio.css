@@ -15,56 +15,101 @@ body h1, body h2, body h3, body h4, body h5 {
   font-family: "Marcellus", serif;
 }
 
-.inicio1 {
-  width: 250px;
-  margin: 0 auto;
-  background: rgba(51, 121, 183, 0.337254902);
-  padding: 60px;
-  color: #FFFEFC;
-  margin-top: 15%;
-  flex-direction: column;
-  align-items: center;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  width: 30%;
+.Inicio {
+  background-position: center;
+  background-size: 100%;
   display: flex;
-  position: relative;
-  overflow: hidden;
-}
-.inicio1 img {
-  position: absolute;
-  top: 10px;
-  left: 10px;
-  width: 120px;
-}
-.inicio1 a {
-  text-decoration: none;
-  color: #000;
-  margin-top: 30px;
-}
-.inicio1 .sub {
   color: #FFFEFC;
-  background-color: #000;
-  margin-top: 30px;
+  justify-content: center;
 }
-.inicio1 i {
-  color: #FFFEFC;
-  background-color: #9C2759;
-  padding: 20px;
-  border-radius: 50%;
-  font-size: 20px;
-  position: relative;
-  overflow: hidden;
+
+.sect {
+  background-color: rgba(74, 125, 169, 0.836);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10%;
+  border-radius: 3px;
 }
-.inicio1 input, .inicio1 label {
-  display: block;
-  margin: auto;
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  border: 0px;
+  margin-top: 1.5rem;
+  width: 100%;
+  height: auto;
+}
+
+.img-formulario {
+  display: flex;
+  flex-direction: row;
+  align-content: space-around;
+  align-items: flex-start;
+  margin: -13.7%;
+}
+
+.img {
+  display: flex;
+  flex-direction: row;
+  align-content: space-around;
+  align-items: flex-start;
+  margin: -13.7%;
+}
+
+#img-formulario {
+  width: 100%;
+  height: 50%;
+  margin: 10px;
+  margin-right: 55%;
+}
+
+.user {
+  display: flex;
+  color: rgb(156, 39, 89);
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  padding: 1rem;
+  font-size: 50px;
+}
+
+.inpt {
+  width: 100%;
   height: 20px;
-  width: 90%;
 }
-.inicio1 label {
-  margin-top: 10px;
+
+.boton-formu {
+  width: 102.5%;
+  height: 25px;
+  background-color: #000;
+  color: #FFFEFC;
+  border-radius: 3px;
+  font-size: 1em;
 }
-.inicio1 .caja {
-  width: 400px;
+
+.registrar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  align-content: space-between;
+  margin: 0.5rem;
+}
+
+.registrate {
+  display: flex;
+  align-content: center;
+  padding: 0.5rem;
+  color: #FFFEFC;
+  font-size: 1em;
+}
+
+.aqui {
+  display: flex;
+  color: #000;
 }/*# sourceMappingURL=inicio.css.map */
